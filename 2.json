@@ -1,0 +1,71 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A dynamic color legend with interactive scatter and bar chart displaying the comparison of pay scales by department location.",
+    "data": {
+      "url": "coach_vs_faculty.csv", 
+      "format": {"type": "csv"}
+    },
+    "vconcat": [
+      {
+        "width": 700,
+        "height": 500,
+        "mark": "point",
+        "encoding": {
+          "x": {
+            "field": "NORMALIZED_ANNUAL_RATE",
+            "type": "quantitative",
+            "title": "Normalized Annual Rate"
+          },
+          "y": {
+            "field": "NORMALIZED_PAY_TOTAL_ACTUAL",
+            "type": "quantitative",
+            "title": "Normalized Pay Total Actual"
+          },
+          "color": {
+            "field": "DEPARTMENT_LOCATION_ZIP_CODE",
+            "type": "nominal",
+            "legend": {"title": "Department Location"}
+          },
+          "tooltip": [
+            {"field": "DEPARTMENT_LOCATION_ZIP_CODE", "type": "nominal"},
+            {"field": "PAY_TOTAL_ACTUAL", "type": "quantitative"},
+            {"field": "ANNUAL_RATE", "type": "quantitative"},
+            {"field": "Job", "type": "nominal"}
+          ]
+        },
+        "params": [
+          {"name": "location_brush", "select": {"type": "interval"}}
+        ]
+      },
+      {
+        "width": 600,
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "aggregate": "count",
+            "type": "quantitative",
+            "title": "Count of Records"
+          },
+          "y": {
+            "field": "Job",
+            "type": "nominal",
+            "title": "Job"
+          },
+          "color": {
+            "field": "DEPARTMENT_LOCATION_ZIP_CODE",
+            "type": "nominal",
+            "legend": {"title": "Department Location"}
+          }
+        },
+        "transform": [
+          {"filter": {"param": "location_brush"}}
+        ]
+      }
+    ],
+    "resolve": {
+      "scale": {
+        "color": "independent"
+      }
+    }
+  }
+  

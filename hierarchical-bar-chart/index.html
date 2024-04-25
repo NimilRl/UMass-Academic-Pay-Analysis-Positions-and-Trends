@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Hierarchical bar chart</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+
+<body>
+  <div class="btn"><a href="../index.html"> <button class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">
+          Go Back
+        </span>
+      </button></a>
+  </div>
+
+  <script type="module">
+    import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+</script>
+</body>

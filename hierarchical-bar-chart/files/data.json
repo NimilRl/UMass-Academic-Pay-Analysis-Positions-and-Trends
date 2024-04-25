@@ -1,0 +1,1261 @@
+{
+    "name": "analytics",
+    "children": [
+      {
+        "name": "Faculty",
+        "children": [
+          {
+            "name": "U Mass Dartmouth",
+            "children": [
+              {
+                "name": "Assistant Professor",
+                "value": 20880.78
+              },
+              {
+                "name": "Instructor/Lecturer/Trainer",
+                "value": 1978.46
+              },
+              {
+                "name": "Professor",
+                "value": 96119.42
+              },
+              {
+                "name": "Part-Time Lecturer",
+                "value": 18208.68
+              },
+              {
+                "name": "Fulltime Lecturer",
+                "value": 60392.33
+              },
+              {
+                "name": "Associate Professor",
+                "value": 111941.29
+              },
+              {
+                "name": "Benefited Part-Time Lecturer",
+                "value": 1123.8
+              },
+              {
+                "name": "Chancellor Professor",
+                "value": 140876.12
+              },
+              {
+                "name": "Professor Emeritus---Pce",
+                "value": 11133.08
+              },
+              {
+                "name": "Professor Emeritus",
+                "value": 4009.15
+              },
+              {
+                "name": "Chancellor Professor Emeritus",
+                "value": 9299.97
+              },
+              {
+                "name": "Visiting Assistant Professor",
+                "value": 44999.76
+              },
+              {
+                "name": "Professor & Dean Emeritus",
+                "value": 86947.42
+              },
+              {
+                "name": "Research Assoc. Professor",
+                "value": 54948.03
+              },
+              {
+                "name": "Research Assistant Professor",
+                "value": 15813.3
+              },
+              {
+                "name": "Clinical Associate Professor",
+                "value": 27003.07
+              },
+              {
+                "name": "Visiting Professor",
+                "value": 17488.16
+              },
+              {
+                "name": "Senior Lecturer",
+                "value": 49645.73
+              },
+              {
+                "name": "Clinical Assistant Professor",
+                "value": 30234.58
+              },
+              {
+                "name": "Commonwealth Professor",
+                "value": 45593.52
+              },
+              {
+                "name": "Clinical Lecturer",
+                "value": 13199.94
+              },
+              {
+                "name": "Assistant Teaching Professor",
+                "value": 11457.94
+              },
+              {
+                "name": "Associate Teaching Professor",
+                "value": 18486.4
+              },
+              {
+                "name": "Assistant Research Professor",
+                "value": 61702.01
+              },
+              {
+                "name": "Research Professor-Env Scien",
+                "value": 26230.82
+              }
+            ]
+          },
+          {
+            "name": "U Mass Lowell",
+            "children": [
+              {
+                "name": "Assistant Professor",
+                "value": 23538.48
+              },
+              {
+                "name": "Associate Professor",
+                "value": 100936.41
+              },
+              {
+                "name": "Faculty Clinical Professor",
+                "value": 102470.52
+              },
+              {
+                "name": "Visiting Assistant Professor",
+                "value": 33333.44
+              },
+              {
+                "name": "Professor",
+                "value": 141059.99
+              },
+              {
+                "name": "Associate Professor (Chair)",
+                "value": 142858.86
+              },
+              {
+                "name": "Professor (Chair)",
+                "value": 52212.7
+              },
+              {
+                "name": "Instructor/Lecturer/Trainer",
+                "value": 180.0
+              },
+              {
+                "name": "Lecturer",
+                "value": 15934.64
+              },
+              {
+                "name": "Visiting Faculty Lecturer",
+                "value": 42572.76
+              },
+              {
+                "name": "Research Professor",
+                "value": 59228.56
+              },
+              {
+                "name": "Visiting Professor",
+                "value": 35115.44
+              },
+              {
+                "name": "Visiting Associate Professor",
+                "value": 24615.36
+              },
+              {
+                "name": "Research Associate Professor",
+                "value": 55294.33
+              },
+              {
+                "name": "Assistant Professor (Chair)",
+                "value": 65197.47
+              },
+              {
+                "name": "Lecturer (Asst Dean)",
+                "value": 47983.89
+              },
+              {
+                "name": "Professor (Assoc Dean)",
+                "value": 80208.7
+              },
+              {
+                "name": "Assoc Professor (Assoc Dean)",
+                "value": 56666.17
+              },
+              {
+                "name": "Clinical Assistant Professor",
+                "value": 10000.0
+              },
+              {
+                "name": "Clinical Associate Professor",
+                "value": 33271.58
+              },
+              {
+                "name": "Assoc Professor (Director)",
+                "value": 8652.96
+              },
+              {
+                "name": "Research Assistant Professor",
+                "value": 22884.71
+              },
+              {
+                "name": "Assoc Professor (Assoc Chair)",
+                "value": 30560.64
+              },
+              {
+                "name": "Professor (Director)",
+                "value": 158685.82
+              },
+              {
+                "name": "Professor (Assoc Chair)",
+                "value": 69987.66
+              },
+              {
+                "name": "Senior Lecturer I",
+                "value": 24443.1
+              },
+              {
+                "name": "Lecturer (Assoc Chair)",
+                "value": 24080.04
+              },
+              {
+                "name": "Clinical Professor",
+                "value": 500.0
+              },
+              {
+                "name": "Assistant Teaching Professor",
+                "value": 31257.5
+              },
+              {
+                "name": "Associate Teaching Professor",
+                "value": 27237.63
+              },
+              {
+                "name": "Professor (Vhrp)",
+                "value": 80263.41
+              },
+              {
+                "name": "Assistant Professor (Director)",
+                "value": 47944.61
+              },
+              {
+                "name": "Teaching Professor",
+                "value": 46092.68
+              },
+              {
+                "name": "Assistant Professor (Vhrp)",
+                "value": 101102.56
+              },
+              {
+                "name": "Asst Professor (Assoc Chair)",
+                "value": 102295.92
+              },
+              {
+                "name": "Professor (Vhrp/Director)",
+                "value": 114771.01
+              },
+              {
+                "name": "Assocprofessor(Director/Chair)",
+                "value": 73114.71
+              },
+              {
+                "name": "Associate Professor (Vhrp)",
+                "value": 10037.32
+              },
+              {
+                "name": "Fullprofessor&Chancelloremerit",
+                "value": 192307.8
+              },
+              {
+                "name": "Professor (Chair/Director)",
+                "value": 22243.12
+              },
+              {
+                "name": "Assoc Professor (Vhrp/Chair)",
+                "value": 115357.43
+              },
+              {
+                "name": "Professor (Vhrp/Chair)",
+                "value": 66091.8
+              },
+              {
+                "name": "Professor(Chair/Director/Vhrp)",
+                "value": 285966.19
+              },
+              {
+                "name": "Teaching Professor (Director)",
+                "value": 39589.52
+              },
+              {
+                "name": "Visiting Fac Lecturer (Dir)",
+                "value": 49297.22
+              },
+              {
+                "name": "Professor (Assoc Chair/Dir)",
+                "value": 76.92
+              }
+            ]
+          },
+          {
+            "name": "U Mass Amherst",
+            "children": [
+              {
+                "name": "Lecturer U Of M",
+                "value": 1838.72
+              },
+              {
+                "name": "Research Professor A",
+                "value": 20192.34
+              },
+              {
+                "name": "Professor A U Of M",
+                "value": 48561.46
+              },
+              {
+                "name": "Professor U Of M",
+                "value": 54006.33
+              },
+              {
+                "name": "Distinguished Professor A",
+                "value": 44061.84
+              },
+              {
+                "name": "Assoc Professor U Of M",
+                "value": 71438.78
+              },
+              {
+                "name": "Lecturer A, U Of M",
+                "value": 15666.08
+              },
+              {
+                "name": "Senior Lecturer U Of M",
+                "value": 58735.16
+              },
+              {
+                "name": "Senior Lecturer Ii A",
+                "value": 83625.34
+              },
+              {
+                "name": "Research Assistant Professor",
+                "value": 84038.21
+              },
+              {
+                "name": "Senior Lecturer A U Of M",
+                "value": 68708.55
+              },
+              {
+                "name": "Asst Professor U Of M",
+                "value": 75185.0
+              },
+              {
+                "name": "Research Associate Professor A",
+                "value": 15052.54
+              },
+              {
+                "name": "Visiting Professor A",
+                "value": 6556.99
+              },
+              {
+                "name": "Extension Assoc Professor A",
+                "value": 91330.34
+              },
+              {
+                "name": "Lecturer Ii A",
+                "value": 51077.47
+              },
+              {
+                "name": "Senior Lecturer Ii",
+                "value": 98569.62
+              },
+              {
+                "name": "Research Assistant Professor A",
+                "value": 40305.77
+              },
+              {
+                "name": "Clinical Assistant Professor",
+                "value": 46403.42
+              },
+              {
+                "name": "Extension Associate Professor",
+                "value": 85891.63
+              },
+              {
+                "name": "Distinguished Professor",
+                "value": 10955.46
+              },
+              {
+                "name": "Research Professor",
+                "value": 119226.3
+              },
+              {
+                "name": "Visiting Assistant Professor",
+                "value": 15959.73
+              },
+              {
+                "name": "Research Associate Professor",
+                "value": 88423.03
+              },
+              {
+                "name": "Visiting Assistant Professor A",
+                "value": 28519.08
+              },
+              {
+                "name": "Assoc Professor A U Of M",
+                "value": 126331.69
+              },
+              {
+                "name": "Lecturer Ii",
+                "value": 69578.52
+              },
+              {
+                "name": "Extension Assistant Professora",
+                "value": 4046.98
+              },
+              {
+                "name": "Clinical Associate Professor",
+                "value": 3537.44
+              },
+              {
+                "name": "Extension Professor A",
+                "value": 114340.4
+              },
+              {
+                "name": "Wilmer D. Barrett Professor",
+                "value": 264914.96
+              },
+              {
+                "name": "Extension Professor",
+                "value": 104821.94
+              },
+              {
+                "name": "Visiting Associate Professor A",
+                "value": 6556.99
+              },
+              {
+                "name": "Visiting Associate Professor",
+                "value": 62437.11
+              },
+              {
+                "name": "Extension Assistant Professor",
+                "value": 38141.84
+              },
+              {
+                "name": "Clinical Asst Professor U Of M",
+                "value": 6060.75
+              },
+              {
+                "name": "Visiting Lecturer A",
+                "value": 7418.94
+              },
+              {
+                "name": "Asst Professor A U Of M",
+                "value": 17769.18
+              },
+              {
+                "name": "Visiting Professor",
+                "value": 3461.52
+              },
+              {
+                "name": "Visiting Lecturer",
+                "value": 3545.7
+              },
+              {
+                "name": "Professor",
+                "value": 1000.0
+              },
+              {
+                "name": "Clinical Assistant Professor A",
+                "value": 30647.58
+              },
+              {
+                "name": "Gilgut Professor Plant Biology",
+                "value": 101992.32
+              },
+              {
+                "name": "Clinical Asst Professor A",
+                "value": 5166.08
+              },
+              {
+                "name": "Clinical Associate Professor A",
+                "value": 43937.5
+              },
+              {
+                "name": "Clinical Lecturer U Of M",
+                "value": 42754.0
+              },
+              {
+                "name": "Clinical Professor U Of M",
+                "value": 32759.64
+              },
+              {
+                "name": "Clinical Professor A U Of M",
+                "value": 5923.48
+              }
+            ]
+          },
+          {
+            "name": "U Mass Boston",
+            "children": [
+              {
+                "name": "Associate Professor",
+                "value": 78918.13
+              },
+              {
+                "name": "Assistant Professor",
+                "value": 57539.35
+              },
+              {
+                "name": "Lecturer",
+                "value": 4123.47
+              },
+              {
+                "name": "Lecturer A",
+                "value": 1323.39
+              },
+              {
+                "name": "Lecturer Ii",
+                "value": 47075.97
+              },
+              {
+                "name": "Professor A",
+                "value": 101474.51
+              },
+              {
+                "name": "Senior Lecturer",
+                "value": 50011.33
+              },
+              {
+                "name": "Professor",
+                "value": 98329.49
+              },
+              {
+                "name": "Lecturer I",
+                "value": 0.0
+              },
+              {
+                "name": "Grad Prog Dir/Asst Professor",
+                "value": 46348.0
+              },
+              {
+                "name": "Grad Prog Dir/Professor",
+                "value": 104707.87
+              },
+              {
+                "name": "Clinical Associate Professor",
+                "value": 81778.82
+              },
+              {
+                "name": "Grad Prog Dir/Lecturer",
+                "value": 0.0
+              },
+              {
+                "name": "Visiting Associate Professor",
+                "value": 47425.34
+              },
+              {
+                "name": "Grad Prog Dir/Assoc Professor",
+                "value": 90270.3
+              },
+              {
+                "name": "Research Assoc Professor",
+                "value": 48598.43
+              },
+              {
+                "name": "Dir Freshman Eng Prg/Professor",
+                "value": 97236.46
+              },
+              {
+                "name": "Undergrad Prog Dir/Professor",
+                "value": 139894.49
+              },
+              {
+                "name": "Lecturer/Bs Online Coordinator",
+                "value": 68467.96
+              },
+              {
+                "name": "Distinguished Univ Professor",
+                "value": 172598.18
+              },
+              {
+                "name": "Undergrad Prog Dir/Lecturer",
+                "value": 81622.62
+              },
+              {
+                "name": "Clinical Assistant Professor",
+                "value": 92444.33
+              },
+              {
+                "name": "Commonwealth Professor",
+                "value": 39363.36
+              },
+              {
+                "name": "Research Assistant Professor",
+                "value": 32484.5
+              },
+              {
+                "name": "Research Professor A",
+                "value": 46271.03
+              },
+              {
+                "name": "Research Professor",
+                "value": 38076.94
+              },
+              {
+                "name": "Dean & Rsrch Professor, Gisd",
+                "value": 51042.6
+              },
+              {
+                "name": "Visiting Professor",
+                "value": 25826.91
+              },
+              {
+                "name": "Associate Professor A",
+                "value": 67002.15
+              },
+              {
+                "name": "Director & Clinical Professor",
+                "value": 39230.73
+              },
+              {
+                "name": "Assoc Lecturer A",
+                "value": 1960.78
+              },
+              {
+                "name": "Grad Prog Dir, Senior Lecturer",
+                "value": 39156.58
+              },
+              {
+                "name": "Clinical Professor",
+                "value": 137307.8
+              },
+              {
+                "name": "Visiting Assistant Professor",
+                "value": 20432.81
+              },
+              {
+                "name": "Associate Lecturer",
+                "value": 3829.56
+              },
+              {
+                "name": "Senior Lecturer Ii",
+                "value": 19153.3
+              },
+              {
+                "name": "Assistant Professor A",
+                "value": 27376.94
+              },
+              {
+                "name": "Director & Professor A",
+                "value": 78461.63
+              },
+              {
+                "name": "Dean&Professor, Gisd",
+                "value": 166076.5
+              },
+              {
+                "name": "Gpd/Clinical Professor A",
+                "value": 40850.8
+              },
+              {
+                "name": "Clinical Senior Lecturer Ii",
+                "value": 11217.84
+              },
+              {
+                "name": "Clinical Associate Lecturer",
+                "value": 3215.84
+              },
+              {
+                "name": "Clinical Lecturer",
+                "value": 8851.84
+              },
+              {
+                "name": "Clinical Senior Lecturer I",
+                "value": 12891.9
+              },
+              {
+                "name": "Interim Director/Lecturer",
+                "value": 115903.92
+              },
+              {
+                "name": "Clinical Lecturer A",
+                "value": 5625.0
+              },
+              {
+                "name": "Clinical Asst Professor A",
+                "value": 51896.17
+              },
+              {
+                "name": "Clinical Associate Lecturer A",
+                "value": 12200.02
+              },
+              {
+                "name": "Clinical Professor A",
+                "value": 68010.37
+              },
+              {
+                "name": "Senior Lecturer Iii",
+                "value": 34479.39
+              }
+            ]
+          },
+          {
+            "name": "U Mass Worcester",
+            "children": [
+              {
+                "name": "Asst Professor",
+                "value": 58066.32
+              },
+              {
+                "name": "Assoc Professor",
+                "value": 0.0
+              },
+              {
+                "name": "Professor",
+                "value": 135000.32
+              },
+              {
+                "name": "Asst Professor A U Of M",
+                "value": 0.0
+              },
+              {
+                "name": "Assoc Professor A U Of M",
+                "value": 0.0
+              },
+              {
+                "name": "Lecturer",
+                "value": 173737.61
+              },
+              {
+                "name": "Professor A U Of M",
+                "value": 0.0
+              },
+              {
+                "name": "Professor & Dean Emeritus",
+                "value": 107329.5
+              },
+              {
+                "name": "Visiting Professor",
+                "value": 6020.0
+              },
+              {
+                "name": "Lecturer/Hospitalist",
+                "value": 45511.28
+              },
+              {
+                "name": "Professor Tenure Track",
+                "value": 23550.9
+              },
+              {
+                "name": "Assoc Professor Tenure Track",
+                "value": 27067.96
+              },
+              {
+                "name": "Asst Professor Tenure Track",
+                "value": 10835.0
+              },
+              {
+                "name": "Professor Tenured/Tenure Track",
+                "value": 8542.14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coach",
+        "children": [
+          {
+            "name": "U Mass Amherst",
+            "children": [
+              {
+                "name": "Athletic Coach",
+                "value": 86210.02
+              },
+              {
+                "name": "Head Coach, Track",
+                "value": 103948.43
+              },
+              {
+                "name": "Assistant Athletic Coach",
+                "value": 32969.17
+              },
+              {
+                "name": "Head Basketball Coach",
+                "value": 80299.68
+              },
+              {
+                "name": "Head Football Coach",
+                "value": 203919.44
+              },
+              {
+                "name": "Associate Athletic Coach",
+                "value": 5783.64
+              },
+              {
+                "name": "Lead Coach",
+                "value": 22884.71
+              },
+              {
+                "name": "Coach/Trainer",
+                "value": 10576.97
+              }
+            ]
+          },
+          {
+            "name": "U Mass Lowell",
+            "children": [
+              {
+                "name": "Head Coach",
+                "value": 30910.05
+              },
+              {
+                "name": "Head Coach Men'S Ice Hockey",
+                "value": 143846.56
+              },
+              {
+                "name": "Associate Head Coach",
+                "value": 13603.47
+              },
+              {
+                "name": "Asst Women'S Basketball Coach",
+                "value": 50032.8
+              },
+              {
+                "name": "Boathouse Dir & Coach Wm Crew",
+                "value": 52369.0
+              },
+              {
+                "name": "Head Coach Men'S Soccer",
+                "value": 50444.2
+              },
+              {
+                "name": "Assistant Head Coach",
+                "value": 21154.0
+              },
+              {
+                "name": "Asst Coach Women'S Basketball",
+                "value": 30386.47
+              },
+              {
+                "name": "Head Coach, Women'S Volleyball",
+                "value": 12558.73
+              },
+              {
+                "name": "Head Womans Soccer Coach",
+                "value": 12623.0
+              },
+              {
+                "name": "Asst Coach - Men'S Basketball",
+                "value": 9038.5
+              },
+              {
+                "name": "Head Coach - Baseball",
+                "value": 12515.57
+              },
+              {
+                "name": "Head Coach Of Men'S Basketball",
+                "value": 17450.6
+              },
+              {
+                "name": "Head Softball Coach",
+                "value": 11066.22
+              },
+              {
+                "name": "Head Coach -Women'S Volleyball",
+                "value": 32505.46
+              },
+              {
+                "name": "Head Coach - Women'S Soccer",
+                "value": 33859.85
+              },
+              {
+                "name": "Head Coach - Fld Hock/Asst Dir",
+                "value": 15374.1
+              },
+              {
+                "name": "Head Coach -Women'S Fld Hockey",
+                "value": 40672.06
+              },
+              {
+                "name": "Head Coach-Men X-Country/Track",
+                "value": 36142.84
+              },
+              {
+                "name": "Head Coach - Men'S Soccer",
+                "value": 34997.16
+              },
+              {
+                "name": "Head Coach - Men'S Baseball",
+                "value": 32314.1
+              },
+              {
+                "name": "Boathouse Dir & Coach Wm Row",
+                "value": 13673.34
+              },
+              {
+                "name": "Head Coach - Women'S Softball",
+                "value": 28642.38
+              },
+              {
+                "name": "Head Coach- Women'S Basketball",
+                "value": 17488.3
+              },
+              {
+                "name": "Head Coach -Women'S Basketball",
+                "value": 46265.2
+              },
+              {
+                "name": "Head Coach - Men'S Ice Hockey",
+                "value": 227912.61
+              },
+              {
+                "name": "Asst Coach-Men'S Ice Hockey I",
+                "value": 85275.42
+              },
+              {
+                "name": "Asst Coach-Men'S Ice Hockey Ii",
+                "value": 53927.38
+              },
+              {
+                "name": "Head Performance Coach",
+                "value": 29983.2
+              },
+              {
+                "name": "Asst Coach -Women'S Basketball",
+                "value": 32936.58
+              },
+              {
+                "name": "Asst Coach -Women'S Fld Hockey",
+                "value": 20799.98
+              },
+              {
+                "name": "Head Coach - Men'S Basketball",
+                "value": 105269.52
+              },
+              {
+                "name": "Asst Coach(First)-Men Bsktball",
+                "value": 11230.8
+              },
+              {
+                "name": "Asst Coach(Second)-Men Bskball",
+                "value": 22307.67
+              },
+              {
+                "name": "Asst Coach - Women'S Soccer",
+                "value": 21188.23
+              },
+              {
+                "name": "Asst Coach - Men'S Soccer",
+                "value": 19999.98
+              },
+              {
+                "name": "Head Coach - Men'S Lacrosse",
+                "value": 34980.87
+              },
+              {
+                "name": "Head Coach - Women'S Lacrosse",
+                "value": 24692.39
+              },
+              {
+                "name": "Assoc Head Coach-Men Basktball",
+                "value": 30535.14
+              },
+              {
+                "name": "Asst Coach(Third)-Men Bskball",
+                "value": 20342.27
+              },
+              {
+                "name": "Asst Coach - Men'S Baseball",
+                "value": 21077.94
+              },
+              {
+                "name": "Asst Coach - Women'S Lacrosse",
+                "value": 22646.2
+              },
+              {
+                "name": "Asst Coach -Women'S Volleyball",
+                "value": 20378.97
+              },
+              {
+                "name": "Asst Coach - Men'S Lacrosse",
+                "value": 19846.14
+              },
+              {
+                "name": "Assoc Head Coach-M&W Track&Fld",
+                "value": 23076.96
+              },
+              {
+                "name": "Asst Coach - Women'S Softball",
+                "value": 12307.68
+              },
+              {
+                "name": "Asst Sports Performance Coach",
+                "value": 11692.31
+              },
+              {
+                "name": "Asst Coach - Men'S Ice Hockey",
+                "value": 39866.87
+              },
+              {
+                "name": "Assoc Head Coach -W Fld Hockey",
+                "value": 38706.89
+              },
+              {
+                "name": "Asst Coach-Track&Fld/X-Country",
+                "value": 15408.29
+              },
+              {
+                "name": "Head Rowing Coach&Boathous Mgr",
+                "value": 20096.3
+              },
+              {
+                "name": "Asst Coach-W Basktb/Recr Coord",
+                "value": 20032.46
+              },
+              {
+                "name": "Recr Coord/Asst Coach-W Basktb",
+                "value": 3996.56
+              },
+              {
+                "name": "Asst Coach-Men'S Ice Hockey",
+                "value": 27667.31
+              },
+              {
+                "name": "Head Sports Performance Coach",
+                "value": 54661.77
+              },
+              {
+                "name": "Assoc Head Coach -Men'S Soccer",
+                "value": 14955.52
+              },
+              {
+                "name": "Assoc Head Coach -Men Lacrosse",
+                "value": 19048.33
+              },
+              {
+                "name": "Assoc Hd Coach-Mens Ice Hockey",
+                "value": 19844.42
+              },
+              {
+                "name": "Res Site Liaison/Train Coach",
+                "value": 13915.46
+              },
+              {
+                "name": "Assistant Coach - Baseball",
+                "value": 1538.46
+              },
+              {
+                "name": "Assistant Coach - Field Hockey",
+                "value": 5988.25
+              },
+              {
+                "name": "Sports Performance Coach",
+                "value": 17557.6
+              },
+              {
+                "name": "Assoc Head Coach-Women'S Bsktb",
+                "value": 26757.49
+              },
+              {
+                "name": "Associate Head Coach-Baseball",
+                "value": 9826.9
+              },
+              {
+                "name": "Rhsa Acad Prg Success Coach&Os",
+                "value": 12800.0
+              },
+              {
+                "name": "Assocheadcoach-Men'Sbasketball",
+                "value": 62888.72
+              },
+              {
+                "name": "Student Success Coach",
+                "value": 28346.31
+              }
+            ]
+          },
+          {
+            "name": "U Mass Dartmouth",
+            "children": [
+              {
+                "name": "Academic Coord/Head Coach",
+                "value": 64457.94
+              },
+              {
+                "name": "Aquatics Dir/Hd Coach M&W Swim",
+                "value": 52102.09
+              },
+              {
+                "name": "Asst Dir Athletics/Head Coach",
+                "value": 67502.19
+              },
+              {
+                "name": "Admin Asst/Head Coach",
+                "value": 27138.25
+              },
+              {
+                "name": "Athletic Fac Coord/Head Coach",
+                "value": 18877.84
+              },
+              {
+                "name": "Recruiting Coord/Head Coach",
+                "value": 8692.31
+              },
+              {
+                "name": "Athletic Adminstr/Head Coach",
+                "value": 7771.08
+              },
+              {
+                "name": "Head Women'S Lax Coach/Evnt As",
+                "value": 10268.01
+              },
+              {
+                "name": "Hd Wmns Swim Coach/Equp/Aq Dir",
+                "value": 2719.52
+              },
+              {
+                "name": "Hd Wmn'S Lax Coach/Transp Coor",
+                "value": 0.0
+              },
+              {
+                "name": "Hybrid Hre Asst-Athletic Coach",
+                "value": 5900.65
+              },
+              {
+                "name": "Hd Coach & Coord Stud Ath Prog",
+                "value": 37146.0
+              },
+              {
+                "name": "Hd Wo Soc Coach & Coor Spec Ev",
+                "value": 36545.0
+              },
+              {
+                "name": "Headfootballcoach/Alumnicoord",
+                "value": 72571.53
+              },
+              {
+                "name": "Asst Football Coach/Intra Coor",
+                "value": 48911.96
+              },
+              {
+                "name": "Game Mgmt/Wrk St Coord/Coach",
+                "value": 7711.55
+              }
+            ]
+          },
+          {
+            "name": "U Mass Boston",
+            "children": [
+              {
+                "name": "Head Women'S Soccer Coach",
+                "value": 46808.82
+              },
+              {
+                "name": "Head Mens Baseball Coach",
+                "value": 49287.98
+              },
+              {
+                "name": "Head Women'S Ice Hockey Coach",
+                "value": 44493.43
+              },
+              {
+                "name": "Head Hockey Coach",
+                "value": 49751.07
+              },
+              {
+                "name": "Hd Cross Country & Track Coach",
+                "value": 30000.44
+              },
+              {
+                "name": "Head Women'S Softball Coach",
+                "value": 41794.62
+              },
+              {
+                "name": "Head Woman'S B-Ball Coach",
+                "value": 58613.27
+              },
+              {
+                "name": "Head Men'S Soccer Coach",
+                "value": 45509.45
+              },
+              {
+                "name": "Head Coach Men'S & Wmns Tennis",
+                "value": 45061.28
+              },
+              {
+                "name": "Co-Head Volleyball Coach",
+                "value": 25000.03
+              },
+              {
+                "name": "Success Boston Coach",
+                "value": 28461.52
+              },
+              {
+                "name": "Strength & Conditioning Coach",
+                "value": 1923.08
+              },
+              {
+                "name": "Head Coach, Men'S Basketball",
+                "value": 31000.06
+              },
+              {
+                "name": "Coord Of Academic Coaching",
+                "value": 14898.25
+              },
+              {
+                "name": "Sbi Transition Coach",
+                "value": 24540.92
+              },
+              {
+                "name": "Head Men'S Lacrose Coach",
+                "value": 25384.56
+              },
+              {
+                "name": "Head Track Coach",
+                "value": 8307.68
+              },
+              {
+                "name": "Job Coach",
+                "value": 25347.96
+              },
+              {
+                "name": "Enrollment Coach",
+                "value": 25961.58
+              },
+              {
+                "name": "Early Childhood Leadrshp Coach",
+                "value": 37500.05
+              },
+              {
+                "name": "Head Volleyball Coach",
+                "value": 30260.74
+              },
+              {
+                "name": "Head Women'S Basketball Coach",
+                "value": 50769.18
+              },
+              {
+                "name": "Head Coach",
+                "value": 11289.88
+              },
+              {
+                "name": "Lacrosse Coach",
+                "value": 26923.0
+              }
+            ]
+          },
+          {
+            "name": "U Mass Worcester",
+            "children": [
+              {
+                "name": "Assessment Coach, Ccwt",
+                "value": 7067.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- start section 1 scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <!-- end section 1 scripts -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMass Academic Pay Analysis :
+        Positions and Trends 📈</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HTML structure -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#section1">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Hello 👋🎬
+                </a>
+            </li>
+            
+            <li>
+                <a href="#section3">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Pay Trajectories 🛤️
+                </a>
+            </li>
+            <li>
+                <a href="#section4">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    ZIP Insights 🌐🔍
+                </a>
+            </li>
+            <li>
+                <a href="#section5">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Pay Panorama 🌈
+                </a>
+            </li>
+            <li>
+                <a href="#section6">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Salary Trends 💸
+                </a>
+            </li>
+            <li>
+                <a href="#section7">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Line
+                </a>
+            </li>
+            <li>
+                <a href="#section8">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Academic Structure 🏺
+                </a>
+            </li>
+            <li>
+                <a href="#section9">
+                    <span class="rect"></span>
+                    <span class="circle"></span>
+                    Resources 🤝
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="section1" class="content-section">
+        <h1>  </h1>
+        <div class="sectitle1">UMass Academic Pay Analysis :<br> Positions and Trends 📈</div>
+        <div class="secdes1">let's look at the world of salaries at the University of Massachusetts. 
+            From the hushed corridors of academia to the energetic sidelines of sports fields, 
+            our data paints a detailed picture of compensation for<b>faculty and coaches</b> across various campuses. 
+            Explore how <b>salaries vary by position and location</b>, and<b> discover the trends </b> that shape the financial year. 
+            With each visualization, we decode the complexities of earnings, revealing insights into the value 
+            placed on education and coaching within the UMass system.</div>
+        <p style="font-size: 20px;">👉🏻Just <b>click on the point you want to explore at the <b>left side index</b></p>
+        
+    </section>
+
+
+
+    <section id="section3" class="content-section">
+        <div class="sectitle">💼 Annual Pay Trends for Various Academic Positions 📈</div>
+        <div class="secdes">Explore the <b>dynamic</b> annual pay trends of various academic positions throughout the
+            year 2024 with our interactive multi-series line chart! 💼 Discover how the salaries of positions like
+            Assistant Professor, Lecturer, and Research Professor fluctuate over time. Hover over each data point to
+            unveil <b>insights</b> into the actual pay alongside the annual rate. Uncover the <b>fascinating</b> nuances
+            in pay dynamics within academia like never before! 🌟</div>
+        <div id="vis"></div>
+        <script type="text/javascript">
+            // Embed the visualization in the container with id `vis`
+            vegaEmbed('#vis', '1.json').catch(console.error);
+        </script>
+    </section>
+
+
+
+
+    <section id="section4" class="content-section">
+        <div class="sectitle">🌟 Dynamic Exploration of Pay Distribution by ZIP Code 📊</div>
+        <div class="secdes">Explore the intricate relationship between<br> annual rates and actual pay across ZIP codes with
+            our interactive scatter plot! Each data point represents a ZIP code, <br>plotting the annual rates against the
+            actual pay. But here's where it gets <br>exciting: by selecting specific data points or groups of ZIP codes on
+            the scatter plot, you can dynamically filter the display. <br>This action unveils detailed bar charts showcasing
+            the distribution <br>of pay for either coaches or faculty members in the chosen location. 🌟 Witness the power
+            of dynamic visualization as you delve deep into the nuances of pay distribution across various ZIP codes!
+            💼💰</div>
+        <div id="vis2"></div>
+        <script type="text/javascript">
+            // Embed the visualization in the container with id `vis`
+            vegaEmbed('#vis2', '2.json').catch(console.error);
+        </script>
+    </section>
+
+
+
+
+    <section id="section5" class="content-section">
+        <div class="sectitle">📊 Exploring Pay Structures: From Overview to Detail 📈</div>
+        <div class="secdes">Embark on a journey of comprehensive pay structure analysis with our detailed area graphs!
+            🌟 <br>The primary graph provides an overview, showcasing the distribution of pay (be it actual pay or annual
+            rate) across all departments. <br>But that's just the beginning! 🚀 Dive deeper into specific areas of interest
+            with our secondary, detailed graph.<br> Here, you have the power to zoom in on precise pay distributions within
+            selected job titles or<br> departments by simply dragging over the desired areas.<br>💼💰 Uncover invaluable
+            insights into pay dynamics and nuances with this interactive exploration into detailed pay structures! 📈
+        </div>
+
+        <div id="vis3"></div>
+        <script type="text/javascript">
+            // Embed the visualization in the container with id `vis`
+            vegaEmbed('#vis3', '3.json').catch(console.error);
+        </script>
+    </section>
+
+
+
+
+    <section id="section6" class="content-section">
+        <div class="sectitle">📈 Tracing Salary Trends Over Time: Faculty vs. Coaches 💼</div>
+        <div class="secdes">Embark on a journey through time as we delve into the evolution of average salaries for
+            faculty and coaches!<br> 🕰️ Our multi-line chart serves as a window into the past, allowing you to trace the
+            trajectory of salaries over the years.<br> 🌟 Uncover any significant changes or trends that have shaped the
+            landscape of compensation for these roles.<br> From humble beginnings to potential peaks and valleys, this
+            visualization offers valuable insights into the <br>dynamic world of salary trends over time. 💼💰</div>
+
+    </section>
+
+
+    <section id="section7" class="content-section">
+
+
+        <div class="controls">
+            <label><input type="checkbox" id="toggleVoronoi"> Show Voronoi Diagram</label>
+        </div>
+        <div class="chart-container">
+            <svg id="chart"></svg>
+        </div>
+
+        <script>
+            let voronoi = false; // Initial state of the Voronoi diagram
+
+            document.getElementById('toggleVoronoi').addEventListener('change', function () {
+                voronoi = this.checked;
+                loaddata(); // Redraw chart when Voronoi toggle changes
+            });
+
+            function loaddata() {
+                d3.csv("coach_vs_faculty.csv", function (d) {
+                    return {
+                        job: d.POSITION_TITLE, // Combine positiontitle and Job fields
+                        year: new Date(+d.YEAR, 0, 1), // Convert year to year object
+                        payTotalActual: +d.NORMALIZED_ANNUAL_RATE // Convert PAY_TOTAL_ACTUAL to number
+                    };
+                }).then(function (data) {
+                    data.forEach(d => {
+                        d.year = new Date(d.year);
+                    });
+                    drawChart(data); // Call drawChart function with the loaded data
+                });
+            }
+
+            function drawChart(unemployment) {
+
+                console.log(unemployment);
+
+                // Clear existing content
+                document.querySelector('.chart-container').innerHTML = '<svg id="chart"></svg>';
+
+                const width = 1400;
+                const height = 800;
+                const marginTop = 5;
+                const marginRight = 20;
+                const marginBottom = 30;
+                const marginLeft = 30;
+
+                const svg = d3.select('#chart')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .attr('viewBox', `0 0 ${width} ${height}`)
+                    .attr('style', 'max-width: 100%; height: auto; font: 10px sans-serif;');
+
+                const x = d3.scaleUtc()
+                    .domain(d3.extent(unemployment, d => d.year))
+                    .range([marginLeft, width - marginRight]);
+
+                const y = d3.scaleLinear()
+                    .domain([0, d3.max(unemployment, d => d.payTotalActual)]).nice()
+                    .range([height - marginBottom, marginTop]);
+
+                svg.append("g")
+                    .attr("transform", `translate(0,${height - marginBottom})`)
+                    .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0));
+
+                svg.append("g")
+                    .attr("transform", `translate(${marginLeft},0)`)
+                    .call(d3.axisLeft(y))
+                    .call(g => g.select(".domain").remove())
+                    .call(g => g.selectAll(".tick line").clone()
+                        .attr("x2", width - marginLeft - marginRight)
+                        .attr("stroke-opacity", 0.1))
+                    .call(g => g.append("text")
+                        .attr("x", -marginLeft)
+                        .attr("y", 10)
+                        .attr("fill", "currentColor")
+                        .attr("text-anchor", "start")
+                        .text("↑ pay total  (%)"));
+
+                // More D3.js chart implementation here
+
+                // Compute the points in pixel space as [x, y, z], where z is the name of the series.
+                const points = unemployment.map((d) => [x(d.year), y(d.payTotalActual), d.job]);
+
+                // An optional Voronoi display (for fun).
+                if (voronoi) svg.append("path")
+                    .attr("fill", "none")
+                    .attr("stroke", "#ccc")
+                    .attr("d", d3.Delaunay
+                        .from(points)
+                        .voronoi([0, 0, width, height])
+                        .render());
+
+                // Group the points by series.
+                const groups = d3.rollup(points, v => Object.assign(v, {
+                    z: v[0][2]
+                }), d => d[2]);
+
+                // Draw the lines.
+                const line = d3.line();
+                const path = svg.append("g")
+                    .attr("fill", "none")
+                    .attr("stroke", "steelblue")
+                    .attr("stroke-width", 1.5)
+                    .attr("stroke-linejoin", "round")
+                    .attr("stroke-linecap", "round")
+                    .selectAll("path")
+                    .data(groups.values())
+                    .join("path")
+                    .style("mix-blend-mode", "multiply")
+                    .attr("d", line);
+
+                // Add an invisible layer for the interactive tip.
+                const dot = svg.append("g")
+                    .attr("display", "none");
+
+                dot.append("circle")
+                    .attr("r", 2.5);
+
+                dot.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("y", -8);
+
+                svg
+                    .on("pointerenter", pointerentered)
+                    .on("pointermove", pointermoved)
+                    .on("pointerleave", pointerleft)
+                    .on("touchstart", event => event.preventDefault());
+
+                return svg.node();
+
+                // When the pointer moves, find the closest point, upyear the interactive tip, and highlight
+                // the corresponding line. Note: we don't actually use Voronoi here, since an exhaustive search
+                // is fast enough.
+                function pointermoved(event) {
+                    const [xm, ym] = d3.pointer(event);
+                    const i = d3.leastIndex(points, ([x, y]) => Math.hypot(x - xm, y - ym));
+                    const [x, y, k] = points[i];
+                    path.style("stroke", ({
+                        z
+                    }) => z === k ? null : "#ddd").filter(({
+                        z
+                    }) => z === k).raise();
+                    dot.attr("transform", `translate(${x},${y})`);
+                    dot.select("text").text(k);
+                    svg.property("value", unemployment[i]).dispatch("input", {
+                        bubbles: true
+                    });
+                }
+
+                function pointerentered() {
+                    path.style("mix-blend-mode", null).style("stroke", "#ddd");
+                    dot.attr("display", null);
+                }
+
+                function pointerleft() {
+                    path.style("mix-blend-mode", "multiply").style("stroke", null);
+                    dot.attr("display", "none");
+                    svg.node().value = null;
+                    svg.dispatch("input", {
+                        bubbles: true
+                    });
+                }
+            }
+            loaddata()
+        </script>
+    </section>
+
+
+
+    <section id="section8" class="content-section sec5">
+        <div class="sectitle">Hierarchical Bar Chart: Exploring Data Hierarchy and Variance</div>
+        <a href="hierarchical-bar-chart/index.html"> <button class="pushable">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front">
+                    Click hear to see the graph
+                </span>
+            </button></a>
+    </section>
+
+    <section id="section9" class="content-section">
+        <div class="sectitle1">Resources and Help</div>
+        <p>
+            <ul>
+                <li><strong>vega-lite graphs:</strong> <a href="https://vega.github.io/vega-lite/examples/">https://vega.github.io/vega-lite/examples/</a></li>
+                <li><strong>d3.js graphs:</strong> <a href="https://observablehq.com/@d3/gallery">https://observablehq.com/@d3/gallery</a></li>
+                <li><strong>online resources:</strong> chatgpt ,Google sites , d3.js and vega-lite documentation</li>
+                <li><strong>Help:</strong> Some friends and Teaching staff</li>
+              </ul>
+        </p>
+    </section>
+
+
+    <!-- other sections -->
+    <div class="about"><a href="http://janetmndz.com" target="_blank">♡</a></div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

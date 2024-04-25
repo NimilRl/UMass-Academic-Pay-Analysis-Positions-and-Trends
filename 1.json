@@ -1,0 +1,76 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A multi-series line chart showing the top 15 positions by normalized annual rate over the year 2024 for different academic positions.",
+    "data": {
+      "url": "coach_vs_faculty.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "window": [{"op": "dense_rank", "as": "rank"}],
+        "sort": [{"field": "NORMALIZED_ANNUAL_RATE", "order": "descending"}]
+      },
+      {"filter": {"field": "rank", "lte": 400}}
+    ],
+    "width": 700,
+    "height": 500,
+    "encoding": {
+      "x": {
+        "field": "YEAR",
+        "type": "ordinal",
+        "axis": {"title": "Year"}
+      }
+    },
+    "layer": [
+      {
+        "encoding": {
+          "color": {
+            "field": "POSITION_TITLE",
+            "type": "nominal",
+            "scale": {"scheme": "category20b"},
+            "legend": {"title": "Position Title"}
+          },
+          "y": {
+            "field": "NORMALIZED_ANNUAL_RATE",
+            "type": "quantitative",
+            "axis": {"title": "Normalized Annual Rate"}
+          }
+        },
+        "layer": [
+          {"mark": "line"},
+          {
+            "encoding": {
+              "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0}
+            },
+            "mark": "point"
+          }
+        ]
+      },
+      {
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.3, "param": "hover", "empty": false},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "POSITION_TITLE", "type": "nominal"},
+            {"field": "ANNUAL_RATE", "type": "quantitative"}
+          ]
+        },
+        "params": [
+          {
+            "name": "hover",
+            "select": {
+              "type": "point",
+              "fields": ["YEAR"],
+              "nearest": true,
+              "on": "mouseover",
+              "clear": "mouseout"
+            }
+          }
+        ],
+        "mark": "rule"
+      }
+    ]
+  }
+  

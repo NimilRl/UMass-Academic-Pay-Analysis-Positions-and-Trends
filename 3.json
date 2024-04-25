@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Layered area graph showing the distribution of annual pay rates over years, with an overview selector for detail.",
+  "data": {"url": "coach_vs_faculty.csv"},
+  "vconcat": [
+    {
+      "width": 700,
+      "layer": [
+        {
+          "mark": "area",
+          "encoding": {
+            "x": {
+              "field": "YEAR",
+              "type": "temporal",
+              "scale": {"domain": {"param": "brush"}},
+              "axis": {"title": "Year"}
+            },
+            "y": {
+              "field": "ANNUAL_RATE",
+              "type": "quantitative",
+              "stack": null,
+              "axis": {"title": "Annual Rate"}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "width": 480,
+      "height": 60,
+      "mark": "area",
+      "params": [
+        {
+          "name": "brush",
+          "select": {"type": "interval", "encodings": ["x"]}
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "YEAR",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "ANNUAL_RATE",
+          "type": "quantitative",
+          "stack": "10",
+          "axis": {"tickCount": 3, "grid": false}
+        }
+      }
+    }
+  ]
+}
