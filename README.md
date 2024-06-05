@@ -38,7 +38,7 @@ https://github.com/NimilRl/UMass-Academic-Pay-Analysis-Positions-and-Trends/asse
 - [Online Resources](https://chatgpt.com, https://sites.google.com, https://d3js.org, https://vega.github.io/vega-lite/)
 
 ## Dataset
-- **coach_vs_faculty.csv**
+- **[coach_vs_faculty.csv](https://cs617.org/data/coach_vs_faculty.csv)**
 
 ## Data Cleaning
 Check out our Google Colab notebook for data cleaning steps: [Data Cleaning Notebook](https://colab.research.google.com/drive/1Kb9ydK_Tc3PuKsQMP71Nu3h2gbMGu7Iw#scrollTo=srkVyuMBiX6s)
