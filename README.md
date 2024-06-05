@@ -3,26 +3,26 @@
 ## Data Story Overview
 Welcome to the UMass salary exploration for 2024! 📊 From the classrooms to the sports fields, our visualizations reveal compensation patterns for faculty and coaches. See how salaries vary by position and location, uncovering the trends that shape UMass finances. Each interactive chart offers a glimpse into the value placed on education and coaching. 📈🎓
 
-### Annual Pay Trends for Various Academic Positions 📈
+## Annual Pay Trends for Various Academic Positions 📈
 Discover the dynamic pay trends of academic positions in 2024! 💼 Our interactive line chart shows how salaries for roles like Assistant Professor, Lecturer, and Research Professor change over time. Hover over each point for detailed insights. 🌟
 
-### Pay Distribution by ZIP Code 📊
+## Pay Distribution by ZIP Code 📊
 Explore the relationship between annual rates and actual pay across ZIP codes with our scatter plot! Each point represents a ZIP code, and selecting a group reveals detailed bar charts for faculty or coaches. 💼💰
 
-### Exploring Pay Structures: From Overview to Detail 📊
+## Exploring Pay Structures: From Overview to Detail 📊
 Analyze comprehensive pay structures with our area graphs! 🌟 The overview graph shows pay distribution across departments. Zoom in on specific areas to see detailed distributions for selected job titles or departments. 💼
 
-### Tracing Salary Trends Over Time: Faculty vs. Coaches 💼
+## Tracing Salary Trends Over Time: Faculty vs. Coaches 💼
 Track the evolution of average salaries for faculty and coaches with our multi-line chart! 🕰️ See how compensation has changed over the years and uncover significant trends. 📈
 
-### Hierarchical Bar Chart: Exploring Data Hierarchy and Variance 🌳
+## Hierarchical Bar Chart: Exploring Data Hierarchy and Variance 🌳
 Visualize data hierarchy with our hierarchical bar chart! 📈 Each bar represents a category, showing the relative importance and relationships between data points. Dive into the layers of your dataset for valuable insights. 🚀
 
 ## Visual Video
 Watch our video walkthrough highlighting key visualizations and insights.
 
 
-https://github.com/NimilRl/UMass-Academic-Pay-Analysis-Positions-and-Trends/assets/90232167/e2d5127d-ad8b-4570-85c3-7cdf7aad8cfe
+https://github.com/NimilRl/UMass-Academic-Pay-Analysis-Positions-and-Trends/assets/90232167/5d158ca1-eb72-47c5-b717-e5c6c2078a3e
 
 
 
